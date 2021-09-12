@@ -1,0 +1,23 @@
+.picturesUser{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.picturesUser:hover, .picturesUser:focus{
+  text-decoration: underline;
+}
+
+.picturesUser--Image{
+  border-radius: 5px;
+}
+
+.picturesUser--Name{
+  text-shadow: 0 0 5px #000;
+}

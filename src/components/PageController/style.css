@@ -1,0 +1,11 @@
+.pageController {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.pageController--PageNumber {
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+}
