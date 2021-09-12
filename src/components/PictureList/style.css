@@ -32,3 +32,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: white; 
 }
+
+@media (max-width: 520px) {
+  .pictureList{
+    height: calc(100vh - 120px);
+  }
+}

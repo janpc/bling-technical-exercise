@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0 10px;
 }
 
@@ -27,5 +28,13 @@
 .topContainerButon--button:hover, .topContainerButon--button:focus{
   outline:  none;
   opacity: 0.5;
+}
+
+@media (max-width: 520px) {
+  .App--TopContainer{
+    height: 120px;
+    justify-content: center;
+    padding: 0;
+  }
 }
 

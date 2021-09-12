@@ -13,9 +13,34 @@
   position: relative;
 }
 
+
 .pictureContainer > a:first-of-type:hover, 
 .pictureContainer > a:first-of-type:focus {
   border: 2px solid white;
   border-radius: 5px;
   outline: none;
+}
+
+@media (max-width: 850px) {
+  .pictureContainer{
+    width: 32%;
+  }
+}
+
+@media (max-width: 650px) {
+  .pictureContainer{
+    width: 49%;
+  }
+}
+
+@media (max-width: 450px) {
+  .pictureContainer{
+    width: 49%;
+  }
+}
+
+@media (max-width: 360px) {
+  .pictureContainer{
+    width: 100%;
+  }
 }

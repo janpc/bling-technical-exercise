@@ -24,3 +24,12 @@
   outline: none;
   color: white;
 }
+
+@media (max-width: 520px) {
+  .search--input{
+    width: min(90% - 26px, 250px);
+  }
+  .search{
+    max-width: calc(90% - 20px);
+  }
+}
