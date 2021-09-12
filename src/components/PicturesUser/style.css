@@ -8,10 +8,13 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
+  border: none;
 }
 
 .picturesUser:hover, .picturesUser:focus{
   text-decoration: underline;
+  border: none;
+  outline: none;
 }
 
 .picturesUser--Image{

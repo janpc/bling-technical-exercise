@@ -7,7 +7,15 @@
 
 .pictureContainer{
   width: 24%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.pictureContainer > a:first-of-type:hover, 
+.pictureContainer > a:first-of-type:focus {
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
 }
